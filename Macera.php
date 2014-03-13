@@ -13,6 +13,7 @@ class Macera{
 		mysql_connect("localhost","root","root") or die("Veritabanına bağlanamadım");
 		mysql_select_db("macera") or die("Veritabanını seçemedim");
 		mysql_query("SET NAMES 'utf8'");
+		echo 'TEST';
 	}
 	
 	public function userIsLogged()
